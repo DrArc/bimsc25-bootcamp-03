@@ -1,24 +1,24 @@
 :root {
     --navBarHeight: 30px;
-    --sideBarHeight: 200px
+    --sideBarHeight: 200px;
 }
 
 #navBar {
     background-color: rgb(233, 203, 253);
     height: var(--navBarHeight);
-    padding: 20px
+    padding: 20px;
 }
 
 #sidebar {
     background-color: rgb(102, 102, 139);
     width: var(--sideBarHeight);
-    padding: 10px
+    padding: 10px;
 }
 
 #main {
     background-color: rgb(145, 208, 219);
     width: calc(100vw - var(--sideBarHeight));
-    padding: 10px
+    padding: 10px;
 }
 
 .flexRow {
@@ -82,5 +82,5 @@ body {
 
 .mealTime {
     margin: 10px;
-    color: white
+    color: white;
 }
